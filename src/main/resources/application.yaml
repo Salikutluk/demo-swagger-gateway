@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo-swagger-gateway
+zuul:
+  routes:
+    demo-user:
+      path: /demo-user/**
+    demo-address:
+      path: /demo-address/**
